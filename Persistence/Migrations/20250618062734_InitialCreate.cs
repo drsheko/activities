@@ -12,7 +12,7 @@ namespace Persistence.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "MyProperty",
+                name: "Activities",
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
@@ -23,11 +23,12 @@ namespace Persistence.Migrations
                     IsCancelled = table.Column<bool>(type: "INTEGER", nullable: false),
                     City = table.Column<string>(type: "TEXT", nullable: false),
                     Venue = table.Column<string>(type: "TEXT", nullable: false),
-                    Latitude = table.Column<double>(type: "REAL", nullable: false)
+                    Latitude = table.Column<double>(type: "REAL", nullable: false),
+                    Longitude = table.Column<double>(type: "REAL", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_MyProperty", x => x.Id);
+                    table.PrimaryKey("PK_Activities", x => x.Id);
                 });
         }
 
@@ -35,7 +36,7 @@ namespace Persistence.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "MyProperty");
+                name: "Activities");
         }
     }
 }

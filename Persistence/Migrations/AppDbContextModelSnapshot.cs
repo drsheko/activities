@@ -43,6 +43,9 @@ namespace Persistence.Migrations
                     b.Property<double>("Latitude")
                         .HasColumnType("REAL");
 
+                    b.Property<double>("Longitude")
+                        .HasColumnType("REAL");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -53,7 +56,7 @@ namespace Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MyProperty");
+                    b.ToTable("Activities");
                 });
 #pragma warning restore 612, 618
         }
