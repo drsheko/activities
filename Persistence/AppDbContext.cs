@@ -5,6 +5,6 @@ namespace Persistence
 {
     public class AppDbContext(DbContextOptions options) : DbContext(options)
     {
-       public DbSet<Activity> MyProperty { get; set; }
+       public DbSet<Activity> Activities { get; set; }
     }
 }
