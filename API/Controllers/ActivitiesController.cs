@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Activities.Commands;
 using Application.Queries;
 using Domain;
 using MediatR;
@@ -23,8 +24,14 @@ namespace API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Activity>> GetActivityDetails(string id)
         {
-            return await Mediator.Send(new GetActivityDetails.Query{Id=id});
+            return await Mediator.Send(new GetActivityDetails.Query { Id = id });
 
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<string>> CreateActivity(Activity activity)
+        {
+            return await Mediator.Send(new CreateActivity.Command { Activity = activity });
         }
     }
 }
