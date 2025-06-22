@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SDjmIOye1rY=",
+  "dgSpecHash": "vtWKXFHBdiI=",
   "success": true,
   "projectFilePath": "C:\\Users\\drshe\\OneDrive\\Desktop\\cs\\activities\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\drshe\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\drshe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\drshe\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
     "C:\\Users\\drshe\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

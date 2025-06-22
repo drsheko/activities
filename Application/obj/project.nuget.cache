@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Kjq1Nhm4UXI=",
+  "dgSpecHash": "0ngJxJ6ErhM=",
   "success": true,
   "projectFilePath": "C:\\Users\\drshe\\OneDrive\\Desktop\\cs\\activities\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\drshe\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\drshe\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
     "C:\\Users\\drshe\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\drshe\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.6\\microsoft.data.sqlite.core.9.0.6.nupkg.sha512",
